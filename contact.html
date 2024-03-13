@@ -1,15 +1,35 @@
-<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Blockchain & Cryptocurrencies." />
     <title>Contact Us</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Custom CSS for contact page layout */
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      #contact-form-container {
+        width: 50%;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+      }
+
+      address {
+        margin: 20px;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Contact Us</h1>
+      <h1>Contact Blockchain & Cryptocurrencies</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -19,22 +39,46 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h2>Feedback Form</h2>
-        <form action="submit.php" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required /><br />
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br />
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea
+      <article id="contact-form-container">
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-label="Name"
+          /><br />
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-label="Email"
+          /><br />
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            required
+            aria-label="Message"
+          ></textarea
           ><br />
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Submit" aria-label="Submit" />
         </form>
-      </section>
+      </article>
+      <address>
+        <h2>Contact Information</h2>
+        <p>For any inquiries, please feel free to contact us...</p>
+        <p>Email: info@blockchaincrypto.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Main Street, Anytown, AB1 2CD, United Kingdom</p>
+      </address>
     </main>
     <footer>
-      <p>&copy; 2024 Cryptocurrency & Blockchain. All rights reserved.</p>
+      <p>&copy; 2024 Blockchain & Cryptocurrencies</p>
     </footer>
   </body>
 </html>
