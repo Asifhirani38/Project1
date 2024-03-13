@@ -1,1 +1,3 @@
-Trial codes for the project 1..
+# Hello World!
+
+### This is a a repository of trial codes for the project 1..
