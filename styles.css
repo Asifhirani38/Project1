@@ -81,7 +81,6 @@ h1 {
   text-align: center;
 }
 
-
 footer {
   position: fixed;
   bottom: 0;
@@ -168,4 +167,5 @@ input[type="submit"]:hover {
 
   .service {
     flex-basis: calc(50% - 20px);
+  }
 }
