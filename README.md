@@ -36,6 +36,7 @@
 <li> https://www.diffchecker.com/text-compare/ - The best tools for comparing text, images, files and folders</li> 
 <li> https://fontawesome.com/ - Font Awesome </li>
 </ol>
+
 ### Testing methodologies
 
 ### Testing templates
